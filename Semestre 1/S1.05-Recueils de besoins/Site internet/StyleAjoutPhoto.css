@@ -1,0 +1,157 @@
+body{
+    margin:0px;
+    padding:0px;
+    text-align: center;
+  
+  
+  }
+  
+  .logo {
+    height: 300px;
+    width: 300px;
+  }
+  nav >ul{
+  margin: 0px;
+  padding: 0px;
+  
+  
+  }
+  nav li{
+  list-style-type: none;
+  
+  }
+  nav > ul > li{
+  
+    float: left;
+  }
+  nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 1em 2em;
+    color: black;
+  
+  }
+  
+  ul a{
+    border-width: 3px;
+    border: 2px solid #636e72 ;
+    margin: 6px;
+    margin-right: 6px;
+    margin-left: 6px;
+    border-radius: 10px;
+
+  }
+  
+  ul a:hover{
+  
+    color:green;
+  }
+  #TexteP{
+    text-align: center;
+    margin-right: 50px;
+    padding: 100px;
+    padding-bottom: 50px;
+}
+
+#ContactP{
+    margin-left: 200px;
+    justify-content: center;
+    padding-top: 30px;
+}
+img{
+    border-radius: 50%;
+}
+.contact-section >.container >h2{
+    text-align: center;
+}
+ul a{
+    border-width: 3px;
+    border: 1px solid #636e72 ;
+    margin: 6px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+
+  }
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 1em 2em;
+    color: black;
+  
+  }
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Noto+Serif:ital@1&" ;
+}
+main{
+  border: 7px ridge;
+  border-color:	rgb(105,105,105) ;
+  padding-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+
+}
+.lien{
+    text-decoration: none;
+    color: black;
+    border-width: 3px;
+    border: 1px solid #636e72 ;
+    margin: 6px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    padding: 1em 2em;
+    box-shadow: 0 0 10px 4px rgb(105,105,105);
+}
+.contact-section{
+    border: 400px;
+    padding: 30px 40px;
+    padding-right: 300px;
+    box-sizing: border-box;
+
+
+}
+.form-control{
+    max-width: 400px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: auto;
+}
+.form-control-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    background: white;
+    padding: 20px 40px;
+    outline: none;
+    color:rgb(105,105,105);
+    transition: 0.5s;
+}
+.form-control-text:hover{
+    box-shadow: 0 0 10px 4px rgb(105,105,105);
+}
+
+textarea.form-control{
+    resize: none;
+    height: 120px;
+}
+.form-control-btn{
+    float:right;
+    border: 0;
+    background: white;
+    color: grey;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0,5s;
+}
+
+.form-control-btn:hover{
+    background: white;
+    box-shadow: 0 0 10px 4px rgb(105,105,105);
+}
+
+.message{
+    padding: 50px;
+}

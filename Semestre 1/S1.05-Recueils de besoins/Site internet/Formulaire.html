@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<!---Head-->
+<head>
+<!---css-->
+    <meta charset= 'UTF8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariage de Diane et Bakary</title>
+    <link rel="stylesheet" href="Formulaire.css">
+<!---css-->
+<!---Font-->
+<script src="https://kit.fontawesome.com/01b350011a.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2? display=swap "» rel="stylesheet" family="Noto+Serif:ital@1&">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!--Font--->
+</head>
+<!---Head-->
+<!---Body-->
+<body>
+<header class="header">
+<div>
+    <img src="Diane & Bakary (1).png"  class= "logo">
+</div>
+<div class="block">
+        <nav class="header-menu">
+            <ul>
+                <a class= "menu-active" href="index.html">Acceuil</a>
+                <a href="Formulaire.html">Les Utilitaires</a>
+                <a href="ListeMariage.html">Liste de mariage</a>
+                <a href="Photo.html">Photo</a>
+                <a href="Plan.html">Plan d'accès</a>
+              
+<!---Toutes les images pour donner un lien vers les autres pages-->
+            </ul>
+        </nav>
+    </header>
+</div>
+<!----Main---->
+<main id="Cadre">
+    <h1 id="TitreP" >Bienvenue au Mariage de Diane & Bakary</h1>
+    <form method="post" action="traitement.php" >
+        <form method="post" action="traitement.php">
+            <p>
+                <label for="Nom">Veuillez entrer votre Nom :</label>
+                <input type="text" name="Nom" id="Nom"  size="30" />
+            </p>
+            <p>
+                <label for="Prénom">Veuillez entrer votre Prénom :</label>
+                <input type="text" name="Prénom" id="Prénom"  size="30"/>
+            </p>
+            <p>
+                <label for="Email">Veuillez entrer votre Mail:</label>
+                <input type="text" name="Email" id="Email"  size="30"  placeholder="ex : LucieDuont@yahoo.fr" /> 
+            </p>
+            <h1 id="TitreP"> Dans quel pays / ville habitez-vous ? </h1>
+            <div>
+                <label for="Paris"> Paris</label>
+                <input type="radio" id="ville" name="ville" value="ville" required>
+            </div>
+            <div>
+                <label for="Toulouse">Toulouse</label>
+                <input type="radio" id="Toulouse" name="Toulouse" value="Toulouse" required>
+            </div>
+            <div>
+            <p>
+                <label for="pays">Autres :</label><br />
+                <select name="pays" id="pays">
+                    <optgroup label="Europe">
+                        <option value="france">France</option>
+                        <option value="espagne">Espagne</option>
+                        <option value="italie">Italie</option>
+                        <option value="royaume-uni">Royaume-Uni</option>
+                    </optgroup>
+                    <optgroup label="Amérique">
+                        <option value="canada">Canada</option>
+                        <option value="etats-unis">Etats-Unis</option>
+                    </optgroup>
+                    <optgroup label="Asie">
+                        <option value="chine">Chine</option>
+                        <option value="japon">Japon</option>
+                    </optgroup>
+                </select>
+            </p>
+            </div>
+            <h1 id="TitreP" >Je confirme ma présence au Mariage </h1>
+            <p>Je serai présent lors de la mairie :</p>
+                <div>
+                    <label for="oui">Oui</label>
+                    <input type="radio" id="mairie" name="mairie" value="mairie" required>
+                </div>
+                <div>
+                    <label for="Non">Non</label>
+                    <input type="radio" id="mairie" name="mairie" value="mairie" required>
+                </div>
+            </p>
+            <p> Je serai présent lors de la cérémonie laique: </p>
+            <div>
+                </label for="Oui"> Oui</label>
+                <input type="radio" id="église" name="église" value="église" required>
+            </div>
+            <div>
+                </label for="Non"> Non</label>
+                <input type="radio" id="église" name="église" value="église" required>
+            </div>
+            </p>  
+            <p> Je serai présent lors du Vin d'honneur: </p>
+            <div>
+                </label for="Oui"> Oui</label>
+                <input type="radio" id="vin" name="vin" value="vin" required>
+            </div>
+            <div>
+                </label for="Non"> Non</label>
+                <input type="radio" id="vin" name="vin" value="vin" required>
+            </div>
+            </p>   
+            <p> Je serai présent lors du Diner: </p>
+            <div>
+                </label for="Oui"> Oui</label>
+                <input type="radio" id="Diner" name="Diner" value="Diner" required>
+            </div>
+            <div>
+                </label for="Non"> Non</label>
+                <input type="radio" id="Diner" name="Diner" value="Diner" required>
+            </div>
+            </p> 
+            <p>
+            <div>
+                <p></label for="number"> Je serai accompagné de * personnes:</label> </br></p>
+                <input type="number" id="number" name="number" value="number" min="0" max="10" required>
+            </div>
+             </p>
+             <p> Avez-vous un handicap ?</p>
+            <div>
+                </label for="Oui"> Oui</label>
+                <input type="radio" id="handicap" name="handicap" value="handicap" required>
+            </div>
+            <div>
+                </label for="Non"> Non</label>
+                <input type="radio" id="handicap" name="handicap" value="handicap" required>
+            </div>
+            <h1 id= "TitreP" >Mes allergies</h1>
+            <p>
+                <p>Cochez les aliments dont vous etes allergiques :</p><br />
+                 <input type="checkbox" name="Lactose" id="choix" /> <label for="Lactose">Lactose</label><br/>
+                 <input type="checkbox" name="Poisson" id="choix" /> <label for="Poisson">Poisson</label><br/>
+                 <input type="checkbox" name="Crustacés" id="choix" /> <label for="Crustacés">Crustacés</label><br/>
+                 <input type="checkbox" name="Gluten" id="choix" /> <label for="Gluten">Gluten</label></br>
+                 <input type="checkbox" name="Arachide" id="choix" /> <label for="Arachide">Arachide</label><br/>
+            </p>
+            <h1 id="TitreP" >  Mes gouts culinaires </h1>
+            <p>
+                 <p>J'apprécie beaucoup  :</p> <br />
+                 <input type="checkbox" name="Viande" id="choix" /> <label for="Viande">Viande</label><br/>
+                 <input type="checkbox" name="Poisson" id="choix" /> <label for="Poisson">Poisson</label><br/>
+                 <input type="checkbox" name="Foie Gras" id="choix" /> <label for="Foie Gras">Foie Gras</label><br/>
+                 <input type="checkbox" name="Homard" id="choix" /> <label for="Homard">Homard</label></br>
+                 <input type="checkbox" name="Magret de Canard" id="choix" /> <label for="Magret de Canard">Magret de Canard</label><br/>
+                 <input type="checkbox" name="Coquille Saint Jacques" id="choix" /> <label for="Cocquille Saint Jacques">Arachide</label><br/>
+                 <input type="checkbox" name="Choux à la crème" id="choix" /> <label for="Choux à la crème">Choux à la crème</label><br/>
+            </p>
+            <h1 id="TitreP" >  Un régime alimentaire particulier ?</h1>
+            <div>
+                </label for="Oui"> Oui</label>
+                <input type="radio" id="handicap" name="handicap" value="handicap" required>
+            </div>
+            <div>
+                </label for="Non"> Non</label>
+                <input type="radio" id="handicap" name="handicap" value="handicap" required>
+            </div>
+            <div>
+                <p>
+                   <label for="Plus d'information"> Communiquer plus d'informations à ce sujet :</label></br>
+                   <textarea name="Plus d'information" id="informations" rows="10" cols="50"></textarea>       
+               </p>
+            </div>
+            <h1 id="TitreP" >Choix des Menus</h1>
+            <p>
+                 <p>J'apprécie beaucoup  :</p> <br />
+                 <input type="checkbox" name="Viande" id="choix" /> <label for="Viande">Viande</label><br/>
+                 <input type="checkbox" name="Poisson" id="choix" /> <label for="Poisson">Poisson</label><br/>
+                 <input type="checkbox" name="Foie Gras" id="choix" /> <label for="Foie Gras">Foie Gras</label><br/>
+                 <input type="checkbox" name="Homard" id="choix" /> <label for="Homard">Homard</label></br>
+                 <input type="checkbox" name="Magret de Canard" id="choix" /> <label for="Magret de Canard">Magret de Canard</label><br/>
+                 <input type="checkbox" name="Coquille Saint Jacques" id="choix" /> <label for="Cocquille Saint Jacques">Arachide</label><br/>
+                 <input type="checkbox" name="Choux à la crème" id="choix" /> <label for="Choux à la crème">Choux à la crème</label><br/>
+            </p>
+            <h1 id="TitreP" > Avez-vous le mal de mer ? (naupathie)</h1>
+            <div>
+                </label for="Oui"> Oui</label>
+                <input type="radio" id="handicap" name="handicap" value="handicap" required>
+            </div>
+            <div>
+                </label for="Non"> Non</label>
+                <input type="radio" id="handicap" name="handicap" value="handicap" required>
+            </div>
+            <div>
+             <p>
+                <label for="Plus d'information"> Communiquer plus d'informations à ce sujet:</label><br />
+                <textarea name="Plus d'information" id="informations" rows="10" cols="50"></textarea>       
+            </p>
+            </div>
+            <div>
+                <input type="submit" value="Envoyer" />
+            </div>
+        </form>
+    </form>
+</main>
+</body>
+</html>

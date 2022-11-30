@@ -1,0 +1,78 @@
+body{
+    margin:0px;
+    padding:0px;
+    text-align: center;
+    
+    
+  }
+.logo {
+    height: 300px;
+    width: 300px;
+    
+}
+
+
+textarea{
+  margin-top: 50px;
+}
+#TitreP{
+  margin-top: 50px;
+}
+#choix {
+justify-content: center;
+}
+label {
+
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+}
+
+header{
+
+
+        display: inline-block;
+        width: 1000px;
+        text-align: center;
+        margin-left: 0 auto;
+        margin-right: 0;
+        height: 70px;
+        
+}
+main h1{
+  padding-top: 10px;
+}
+#Cadre{
+  border: 7px ridge;
+  border-color:	rgb(105,105,105) ;
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 95px;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 1em 2em;
+    color: black;
+
+  
+  }
+
+
+
+ul a{
+    border-width: 3px;
+    border: 2px solid 	rgb(105,105,105);
+    margin: 6px;
+    margin-right: 6px;
+    margin-left: 6px;
+    border-radius: 10px;
+   
+  }
+
+ul a:hover{
+
+    color:green;
+  }

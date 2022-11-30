@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<!---Head-->
+<head>
+<!---css-->
+    <meta charset= 'UTF8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter Mes Photos</title>
+    <link rel="stylesheet" href="StyleAjoutPhoto.css">
+<!---css-->
+<!---Font-->
+<script src="https://kit.fontawesome.com/01b350011a.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2? display=swap "» rel="stylesheet" family="Noto+Serif:ital@1&">
+<!--Font--->
+</head>
+<!---Head-->
+<!---Body-->
+<body>
+<header class="header">
+<div>
+    <img src="Diane & Bakary (1).png"  class= "logo">
+</div>
+<div class="block">
+        <nav class="header-menu">
+            <ul>
+                <a class= "menu-active" href="index.html">Acceuil</a>
+                <a href="Formulaire.html">Les Utilitaires</a>
+                <a href="ListeMariage.html">Liste de mariage</a>
+                <a href="Photo.html">Photo</a>
+                <a href="Plan.html">Plan d'accès</a>
+
+<!---Toutes les images pour donner un lien vers les autres pages-->
+            </ul>
+        </nav>
+    </header>
+</div>
+<main>
+<div class="message">
+    <p><strong> Vous pouvez ajouter vos photos pour l'album de Diane et Bakary</strong></p>
+</div>
+<a href="Photo.html" class="lien">Retours à l'album Photo</a>
+<div class="contact-section">
+    <div class="container">
+        <div class="rows">
+            <div class="Right-Section" id= "ContactP">
+                <form method="post" action="traitement.php" class="form-control">
+                    <input type="text" class= "form-control-text" name="Nom" placeholder="Votre Nom" id="Nom"  size="30"/>
+                    <input type="text" class= "form-control-text" name="Prénom" placeholder="Votre Prénom" id="Prénom"  size="30"/>
+                    <input type="email" class= "form-control-text" name="Email" placeholder=" Votre E-mail" id="Email"  size="30" />
+                    <input type="text" class= "form-control-text" name="Telephone" placeholder="Votre numéro de Telephone" id="Téléphone"  size="30"/>
+                    <input type="submit" class= "form-control-btn" name="photos" placeholder="phtotos" id="photos" value="Choisir des photos"  size="30"/>
+                    <input type="submit" class="form-control-btn" value="Envoyer Mon Message">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</main>
+</body>
+</html>

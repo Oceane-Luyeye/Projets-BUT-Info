@@ -1,0 +1,103 @@
+body{
+    margin:0px;
+    padding:0px;
+    text-align: center;
+  
+  }
+.ImageP{
+  width: 100%;
+  padding:0;
+  margin: 0;
+  height: 50%;
+}
+.logo {
+    height: 300px;
+    width: 300px;
+ }
+header{
+
+    display: inline-block;
+    width: 1000px;
+    text-align :center;
+}
+
+nav a{
+   
+        display: inline-block;
+        text-decoration: none;
+        padding: 1em 2em;
+        color: black;
+      
+
+}
+
+ul a{
+    border-width: 3px;
+    border: 2px solid rgb(105,105,105);
+    margin: 6px;
+    margin-right: 6px;
+    margin-left: 6px;
+    border-radius: 10px;
+  }
+
+ul a:hover{
+
+    color:green;
+  }
+  #ImageP{
+    width: 100%;
+    max-width: 2000px;
+    height: auto;
+    margin: 30px auto;
+    padding-bottom: 50px;
+    }
+
+#DeuxiemePartie img{
+  width: 450px;
+  height: auto;
+  margin: 30px;
+  float: left;
+  padding-top: 50px;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+
+#DeuxiemePartie img:hover {
+  transform:scale(1.2);
+}
+.contenant{
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 120%;
+}
+.menu-photo{
+    text-decoration: none;
+    color: black;
+   
+}
+
+ a{
+  border-width: 3px;
+  border: 1px solid 	rgb(105,105,105) ;
+  margin: 6px;
+  margin-right: 6px;
+  margin-left: 6px;
+  border-radius: 10px;
+}
+ a:hover{
+color:green;
+
+}
+#lien a:hover{
+  box-shadow: 0 0 10px 4px rgb(105,105,105);
+}
+
