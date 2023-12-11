@@ -1,0 +1,1 @@
+Cette SAE (Situation d'apprentissage et d'évaluation) S4 a été réalisé en groupe de 5 étudiants : BOYAVAL Maxime, JIE Juan, LADDADA Anis, LUYEYE LU MVUALA Oceane et NEJJARI Abdenour. Le projet consistait à récupérer un projet existant, effectuer une revue de code, tester les composants existants,  proposer des modifications utiles et les implémenter.
